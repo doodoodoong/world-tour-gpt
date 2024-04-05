@@ -1,7 +1,9 @@
-export default function Main() {
+import Main from "@/app/pages/Main";
+
+export default function Page() {
   return (
     <div>
-      <h1>Main Page</h1>
+      <Main />
     </div>
   );
 }
