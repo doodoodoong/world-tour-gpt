@@ -23,7 +23,6 @@ export async function POST(req) {
     messages: buildPrompt(prompt),
     temperature: 0.2,
   });
-
   const stream = OpenAIStream(response);
   return new StreamingTextResponse(stream);
 }

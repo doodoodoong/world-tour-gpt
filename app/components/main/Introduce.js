@@ -31,6 +31,7 @@ export default function Introduce() {
       <div className="w-96 h-96">
         <Image alt="photo" src={tourPic} className="rounded-lg" />
       </div>
+      <div className="w-1"></div>
     </div>
   );
 }
