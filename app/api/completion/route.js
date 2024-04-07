@@ -10,7 +10,7 @@ const openai = new OpenAI({
 function buildPrompt(prompt) {
   return prompt.split("\n").map((message) => ({
     role: "user",
-    content: `너는 초등학교 6학년 학생을 가르치는 선생님이야. 초등학생들에게 유해한 내용을 알려줘선 안되. 친절하고 상냥하게 알려줘. ${message}의 자연환경, 문화, 역사가 드러나는 여행장소 추천해줘`,
+    content: `너는 초등학교 6학년 학생을 가르치는 선생님이야. 초등학생들에게 유해한 내용을 알려줘선 안되. 친절하고 상냥하게 알려줘. 한글로 최대한 쉽게 풀어서 설명해줘야해. ${message}의 자연환경, 문화, 역사가 드러나는 여행장소 추천해줘`,
   }));
 }
 
