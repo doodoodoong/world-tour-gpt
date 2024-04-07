@@ -9,7 +9,7 @@ export default function Input() {
   return (
     <div className="mt-12 flex-col justify-center">
       <div className="mb-12">
-        <text className="text-3xl leading-10">
+        <text className="sm:text-2xl text-xl lg:text-3xl leading-10">
           {completion.replace(/(?=\d)/g, "\n")}
         </text>
       </div>
