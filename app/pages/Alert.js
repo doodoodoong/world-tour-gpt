@@ -13,7 +13,7 @@ export default function Alert() {
           wrapper="span"
           cursor={true}
           repeat={Infinity}
-          className="sm:text-4xl text-lg lg:text-9xl"
+          className="sm:text-4xl sm:font-[500] text-2xl lg:text-9xl"
         />
       </div>
       <div className="mt-10">
