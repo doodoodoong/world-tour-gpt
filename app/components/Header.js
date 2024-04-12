@@ -1,11 +1,10 @@
-import Link from "next/link";
+"use client";
+import { usePathname } from "next/navigation";
+import MainHeader from "./MainHeader";
+import HomeHeader from "./HomeHeader";
 
 export default function Header() {
-  return (
-    <div className=" mt-7">
-      <Link href={"/"}>
-        <text className="text-white">TOUR-GPT</text>
-      </Link>
-    </div>
-  );
+  const pathname = usePathname();
+  const isHomePage = pathname === "/";
+  return <header>{isHomePage ? <HomeHeader /> : <MainHeader />}</header>;
 }

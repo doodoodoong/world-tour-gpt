@@ -1,7 +1,7 @@
 "use client";
 import { useCompletion } from "ai/react";
 
-export default function Input() {
+export default function Input({ placeholder }) {
   let { completion, input, handleInputChange, handleSubmit } = useCompletion({
     api: "/api/completion",
   });
@@ -19,7 +19,7 @@ export default function Input() {
             className="w-full h-14 p-3 box-border rounded-3xl bg-[#323232] text-[#c2c2c2] text-xl font-[500]"
             value={input}
             onChange={handleInputChange}
-            placeholder="조사하고 싶은 여행장소를 적고 엔터키를 눌러주세요."
+            placeholder={placeholder}
           />
           <button type="submit" className="hidden">
             제출하기
