@@ -11,7 +11,7 @@ export default function Introduce() {
           <text
             className={`${roboto.className}sm:text-4xl lg:text-8xl text-2xl`}
           >
-            World Tour
+            증도
           </text>
         </div>
         <div>
@@ -23,7 +23,7 @@ export default function Introduce() {
         </div>
         <div>
           <text className="sm:text-2xl lg:text-3xl text-xl text-gray-300">
-            여러분의 세계 여행 계획을 도와드립니다 !
+            공부하다 필요할 때 도움을 받읍시다!
           </text>
         </div>
         <div>
