@@ -19,7 +19,7 @@ export default function Alert() {
       <div className="mt-10">
         <ul>
           <li className="sm:text-2xl text-xl lg:text-4xl mb-5">
-            할루네이션 효과 : AI가 거짓을 사실인것 처럼 이야기할 수 있습니다.
+            할루시네이션 효과 : AI가 거짓을 사실인것 처럼 이야기할 수 있습니다.
             전적으로 믿지 않습니다.
           </li>
           <li className="sm:text-2xl text-xl lg:text-4xl mb-5">

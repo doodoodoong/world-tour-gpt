@@ -26,7 +26,7 @@ export async function POST(req) {
   const path = new URL(req.url, `http://${req.headers.host}`).pathname;
 
   const response = await openai.chat.completions.create({
-    model: "gpt-4",
+    model: "gpt-4o",
     stream: true,
     messages: buildPrompt(prompt),
     temperature: 0.2,
